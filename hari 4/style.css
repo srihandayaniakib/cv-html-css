@@ -1,0 +1,87 @@
+html {
+  scroll-padding: 80px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: aqua;
+  margin: 0;
+  color: blue;
+  font-family: "Montserrat";
+}
+
+header,
+footer {
+  background-color: aquamarine;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: brown;
+  margin-right: 15px;
+}
+
+header nav ul li a:hover {
+  border-bottom: 3px solid sienna;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+footer div p {
+  text-align: center;
+  color: black;
+}
+
+table {
+  width: 100%;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+progress {
+  width: 250px;
+  background-color: blueviolet;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: brown;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 10px;
+  background-color: blue;
+}
+
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 100px) {
+  .light_blue,
+  .green {
+    width: 100%;
+    margin: auto;
+  }
+}
